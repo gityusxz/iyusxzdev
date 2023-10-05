@@ -1,0 +1,24 @@
+---
+import Introduce from "../components/Introduce.astro";
+import Navbar from "../components/Navbar.astro";
+import Projects from "../components/projects/Project.astro";
+import MainHead from "./MainHead.astro";
+import Dolan from "../components/projects/Dolan.astro";
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+   <MainHead {title} />
+   <body>
+      <Navbar />
+      <Introduce />
+      <Projects />
+      <Dolan />
+      
+     
+
+     
+   </body>
+</html>
