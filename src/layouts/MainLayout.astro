@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar.astro";
 import Projects from "../components/projects/Project.astro";
 import MainHead from "./MainHead.astro";
 import Dolan from "../components/projects/Dolan.astro";
+import Bukukita from "../components/projects/Bukukita.astro";
 
 const { title } = Astro.props;
 ---
@@ -14,8 +15,9 @@ const { title } = Astro.props;
    <body>
       <Navbar />
       <Introduce />
-      <Projects />
+      <Projects id="projects"/>
       <Dolan />
+      <Bukukita/>
       
      
 
